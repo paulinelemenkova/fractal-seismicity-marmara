@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# macOS / editors
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Large base-map rasters (not redistributed — see data/README.md)
+data/*.tif
+data/*.tiff
+
+# Build artefacts
+*.log

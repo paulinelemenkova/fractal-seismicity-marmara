@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (below) and the associated paper."
+title: "Fractal Analysis of Seismicity and Fault Network Geometry: R and Python Workflows (Marmara / NAFZ)"
+abstract: >-
+  Reproducible R and Python workflow for quantifying the scale invariance of an
+  earthquake catalogue: box-counting dimension (D0) and correlation dimension (D2)
+  of the epicentre distribution, box-counting dimension of the fault-trace network,
+  and the maximum-likelihood Gutenberg-Richter b-value, with magnitude-of-completeness
+  selection and Gardner-Knopoff declustering. Demonstrated on the Marmara region of
+  the North Anatolian Fault Zone.
+type: software
+authors:
+  - given-names: Polina
+    family-names: Lemenkova
+    affiliation: "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye"
+    email: lemenkova@itu.edu.tr
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: replace with real ORCID
+  - given-names: Abdullah Can
+    family-names: Zülfikar
+    affiliation: "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye"
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: replace with real ORCID
+version: "1.0.0"
+date-released: "2026-08-22"
+license: MIT
+repository-code: "https://github.com/USERNAME/fractal-seismicity-marmara"   # TODO: replace USERNAME
+keywords:
+  - fractal dimension
+  - correlation dimension
+  - box-counting dimension
+  - Gutenberg-Richter b-value
+  - self-organized criticality
+  - North Anatolian Fault Zone
+  - seismic hazard
+  - reproducible computation
+# After Zenodo mints a DOI, uncomment and fill in the concept DOI:
+# doi: "10.5281/zenodo.XXXXXXX"
+preferred-citation:
+  type: article
+  title: "Fractal Analysis of Seismicity and Fault Network Geometry for Quantifying Earthquake Scale Invariance with R and Python Workflows"
+  authors:
+    - given-names: Polina
+      family-names: Lemenkova
+    - given-names: Abdullah Can
+      family-names: Zülfikar
+  journal: "Contributions to Geophysics and Geodesy"
+  year: 2026
+  # volume / issue / pages / doi: fill in on acceptance
