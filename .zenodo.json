@@ -2,28 +2,23 @@
   "title": "Fractal Analysis of Seismicity and Fault Network Geometry: R and Python Workflows (Marmara / NAFZ)",
   "description": "Reproducible R and Python workflow for quantifying the scale invariance of an earthquake catalogue: box-counting dimension (D0) and correlation dimension (D2) of the epicentre distribution, box-counting dimension of the fault-trace network, and the maximum-likelihood Gutenberg-Richter b-value, with magnitude-of-completeness selection and Gardner-Knopoff declustering. Demonstrated on the Marmara region of the North Anatolian Fault Zone. Supplementary code for the paper submitted to Contributions to Geophysics and Geodesy.",
   "upload_type": "software",
-  "license": "MIT",
+  "license": "mit",
   "access_right": "open",
   "creators": [
     {
       "name": "Lemenkova, Polina",
       "affiliation": "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye",
-      "orcid": "0000-0000-0000-0000"
+      "orcid": "0000-0002-5759-1089"
     },
     {
       "name": "Zülfikar, Abdullah Can",
       "affiliation": "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye",
-      "orcid": "0000-0000-0000-0000"
+      "orcid": "0000-0001-6610-3334"
     }
   ],
   "keywords": [
-    "fractal dimension",
-    "correlation dimension",
-    "box-counting dimension",
-    "Gutenberg-Richter b-value",
-    "self-organized criticality",
-    "North Anatolian Fault Zone",
-    "seismic hazard",
-    "reproducible computation"
+    "fractal dimension", "correlation dimension", "box-counting dimension",
+    "Gutenberg-Richter b-value", "self-organized criticality",
+    "North Anatolian Fault Zone", "seismic hazard", "reproducible computation"
   ]
 }
