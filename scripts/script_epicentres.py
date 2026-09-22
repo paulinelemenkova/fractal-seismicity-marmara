@@ -1,26 +1,4 @@
 #!/usr/bin/env python3
-"""
-Figure 2 (revised) -- Epicentre distribution of the declustered Marmara
-catalogue on a real geographic base.
-
-Geographic base
----------------
-* Background  : georeferenced topo-bathymetric relief raster
-                (exportImage.tiff, EPSG:4326, 25-31 E / 39-42 N), cropped to
-                the study window.
-* Coastline   : Natural Earth 1:10m physical coastline (WGS84), clipped to
-                the window and drawn with a white casing for legibility.
-                (OSM's data endpoints are unreachable from this build; NE-10m
-                is equivalent in fidelity at this scale.)
-
-Data overlays
--------------
-* Declustered epicentres (symbol area ~ magnitude), simulated consistently
-  with Fig. 1 and distributed along the NAFZ strands so that D2 < 2; replace
-  the simulation block with the real catalogue for the production figure.
-* Principal NAFZ strands (schematic traces) and major stations.
-* Coordinate graticule (deg-min), scale bar, north arrow.
-"""
 
 import numpy as np
 import matplotlib as mpl
