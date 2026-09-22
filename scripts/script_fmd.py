@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""
-Figure 4 -- Frequency-magnitude distribution (FMD) of the Marmara catalogue.
 
-Reproduces the SAME full catalogue as the b-Mc stability figure (Fig. 1; seed
-20250617) so that the completeness Mc=2.4 and the maximum-likelihood b-value
-are mutually consistent across the paper. Non-cumulative counts per 0.1-mag bin
-are shown as bars, cumulative counts N(>=M) as points, and the Aki-Utsu MLE
-Gutenberg-Richter law (Eq. gr / Eq. bmle) is drawn above Mc with its Shi & Bolt
-standard error (Eq. bse).
-"""
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
