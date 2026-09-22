@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""
-Figure 3 -- Grassberger-Procaccia correlation integral C(r) for the Marmara
-epicentre set, computed on the SAME declustered point set as the epicentre map
-(Fig. 2; seed 40231). The linear scaling range is fitted to give D2; the
-small-r roll-off (location error / catalogue resolution) and large-r roll-off
-(finite study-area saturation) are excluded and the scaling window reported.
-"""
+
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
