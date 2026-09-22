@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-Figure 1 -- Completeness-magnitude selection by b-value stability.
-
-Generates `fig_mc_stability,png` for the manuscript
-"Fractal and Multifractal Characterisation of Seismicity ...".
-
-The figure is produced by the SAME estimators described in the paper:
-  * Aki-Utsu maximum-likelihood b-value      (Eq. 8,  eq:bmle)
-  * Shi & Bolt standard error  sigma_b=b/sqrt(n)  (Eq. 9,  eq:bse)
-  * b-Mc stability scan        (mc_stability)
-  * Gardner-Knopoff declustering windows     (Eq. 14, eq:gkwindows)
-
-"""
 
 import numpy as np
 import matplotlib as mpl
