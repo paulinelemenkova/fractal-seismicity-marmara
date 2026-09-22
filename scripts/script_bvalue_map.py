@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
-"""
-Figure 5 -- Spatial variation of the Gutenberg-Richter b-value along the
-Marmara segment of the NAFZ.
 
-Epicentre POSITIONS are identical to the epicentre map (Fig. 2, seed 40231).
-Magnitudes are (re)drawn from a spatially varying b-field -- a low-b zone over
-the central (locked) Marmara segment and a higher-b zone over the post-1999
-Izmit rupture -- and that pattern is then RECOVERED by maximum-likelihood
-(Aki-Utsu, Eq. bmle) b estimation in overlapping circular nodes that each
-satisfy a minimum-sample threshold; nodes below threshold are left blank.
-Real GeoTIFF relief + Natural Earth coastline provide the geographic base.
-"""
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
