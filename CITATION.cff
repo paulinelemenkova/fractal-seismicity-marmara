@@ -15,10 +15,6 @@ authors:
     affiliation: "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye"
     email: lemenkova@itu.edu.tr
     orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: replace with real ORCID
-  - given-names: Abdullah Can
-    family-names: Zülfikar
-    affiliation: "Istanbul Technical University, Institute of Earthquake Engineering and Disaster Management, İstanbul, Türkiye"
-    orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: replace with real ORCID
 version: "1.0.0"
 date-released: "2026-08-22"
 license: MIT
@@ -40,8 +36,6 @@ preferred-citation:
   authors:
     - given-names: Polina
       family-names: Lemenkova
-    - given-names: Abdullah Can
-      family-names: Zülfikar
   journal: "Contributions to Geophysics and Geodesy"
   year: 2026
   # volume / issue / pages / doi: fill in on acceptance

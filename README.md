@@ -6,7 +6,7 @@
 
 Reproducible code accompanying the paper:
 
-> **Lemenkova P., Zülfikar A. C.**, 2026: *Fractal Analysis of Seismicity and Fault Network
+> **Lemenkova P.**, 2026: *Fractal Analysis of Seismicity and Fault Network
 > Geometry for Quantifying Earthquake Scale Invariance with R and Python Workflows.*
 > Submitted to *Contributions to Geophysics and Geodesy*.
 
